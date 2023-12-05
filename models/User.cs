@@ -25,8 +25,7 @@ public string? Username { get; set; }
 
             return new User { Username = username, Password = password };
         }
-
-        public static void SaveUsersToFile(List<User> users)
+         public static void SaveUsersToFile(List<User> users)
         {
             string json = JsonConvert.SerializeObject(users, Formatting.Indented);
             File.WriteAllText("users.json", json);
@@ -42,8 +41,7 @@ public string? Username { get; set; }
 
             return new List<User>();
         }
-
-        public static User? Login(List<User> users)
+         public static User? Login(List<User> users)
         {
             Console.Write("Usuario: ");
             string? username = Console.ReadLine();
@@ -157,45 +155,5 @@ public string? Username { get; set; }
             }
         }
 
-        public void PrivateZone()
-        {
-            Console.WriteLine($"Bienvenido a la Zona Privada, {Username ?? "Invitado"}!");
-            Console.WriteLine($"Información Privada: {PrivateInformation}");
+    
 
-            while (true)
-            {
-                Console.WriteLine("1. Ver Historial de Visitas");
-                Console.WriteLine("2. Volver al Menú Principal");
-
-                string? choice = Console.ReadLine();
-
-                switch (choice)
-                {
-                    case "1":
-                        ViewVisitHistory();
-                        break;
-                    case "2":
-                        return;
-                    default:
-                        Console.WriteLine("Opción no válida. Inténtalo de nuevo.");
-                        break;
-                }
-            }
-        }
-
-        public void ViewVisitHistory()
-        {
-            if (Visits == null || Visits.Count == 0)
-            {
-                Console.WriteLine("No hay historial de visitas disponible.");
-                return;
-            }
-
-            Console.WriteLine("Historial de Visitas:");
-
-            foreach (var visit in Visits)
-            {
-                visit.ViewVisit();
-            }
-        }
-    }
