@@ -8,7 +8,9 @@ namespace RutasComerciales
 {
     class Program
     {
-
+        static List<User> users = new List<User>();
+        static List<Product> products = new List<Product>();
+        static User? currentUser;
         static string logFilePath = "error_log.txt";
 
                static void Main()
@@ -16,7 +18,7 @@ namespace RutasComerciales
             // Inicializar el registro de errores
             File.WriteAllText(logFilePath, "Inicio del registro de errores\n");
 
-
+     
 
             while (true)
             {
@@ -31,24 +33,28 @@ namespace RutasComerciales
                     switch (choice)
                     {
                         case "1":
-  
+                       
+                            {
+                           
+                            }
                             break;
                         case "2":
-              
+                           
                             break;
                         case "3":
-                   
+                        
                             break;
                         case "4":
-                     
+                         
                             break;
-             
-                       
+                        default:
+                         
+                            break;
                     }
                 }
                 catch (Exception ex)
                 {
-            
+                    Log($"Error en el menú principal: {ex.Message}");
                 }
             }
         }
