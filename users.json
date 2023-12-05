@@ -1,0 +1,23 @@
+[
+  {
+    "Username": "mario",
+    "Password": "mario",
+    "jefe": false,
+    "Visits": [],
+    "PrivateInformation": null
+  },
+  {
+    "Username": "diego",
+    "Password": "diego",
+    "jefe": false,
+    "Visits": [],
+    "PrivateInformation": null
+  },
+  {
+    "Username": "jefe",
+    "Password": "jefe",
+    "jefe": true,
+    "Visits": [],
+    "PrivateInformation": null
+  }
+]
