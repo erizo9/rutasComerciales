@@ -58,3 +58,14 @@ namespace RutasComerciales
                 }
             }
         }
+         static void InitializeProducts()
+        {
+            Product product1 = new Product { Name = "Producto1", Price = 199 };
+            products.Add(product1);
+        }
+
+        static void Log(string message)
+        {
+            File.AppendAllText(logFilePath, $"{DateTime.Now:yyyy-MM-dd HH:mm:ss} - {message}\n");
+        }
+
