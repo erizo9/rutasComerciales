@@ -1,4 +1,4 @@
-class Visit
+ class Visit
     {
          public DateTime Date { get; set; }
         public string? Location { get; set; }

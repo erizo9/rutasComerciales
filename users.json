@@ -2,22 +2,61 @@
   {
     "Username": "mario",
     "Password": "mario",
-    "jefe": false,
+    "Jefe": false,
     "Visits": [],
-    "PrivateInformation": null
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
   },
   {
     "Username": "diego",
     "Password": "diego",
-    "jefe": false,
+    "Jefe": false,
     "Visits": [],
-    "PrivateInformation": null
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
   },
   {
     "Username": "jefe",
     "Password": "jefe",
-    "jefe": true,
+    "Jefe": true,
     "Visits": [],
-    "PrivateInformation": null
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "pepe",
+    "Password": "pepe",
+    "Jefe": false,
+    "Visits": [],
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "pepe",
+    "Password": "pepe",
+    "Jefe": false,
+    "Visits": [],
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  },
+  {
+    "Username": "pepe",
+    "Password": "pepe",
+    "Jefe": false,
+    "Visits": [],
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
   }
 ]

@@ -1,0 +1,12 @@
+[
+  {
+    "Username": "jefe",
+    "Password": "jefe",
+    "Jefe": false,
+    "Visits": [],
+    "PrivateInformation": null,
+    "Age": 0,
+    "Salary": 0.0,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  }
+]

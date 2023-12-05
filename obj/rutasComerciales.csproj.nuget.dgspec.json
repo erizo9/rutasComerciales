@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo con git\\rutasComerciales\\rutasComerciales.csproj": {}
+    "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo rutas comerciales\\rutasComerciales (3)\\rutasComerciales\\rutasComerciales.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo con git\\rutasComerciales\\rutasComerciales.csproj": {
+    "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo rutas comerciales\\rutasComerciales (3)\\rutasComerciales\\rutasComerciales.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo con git\\rutasComerciales\\rutasComerciales.csproj",
+        "projectUniqueName": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo rutas comerciales\\rutasComerciales (3)\\rutasComerciales\\rutasComerciales.csproj",
         "projectName": "rutasComerciales",
-        "projectPath": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo con git\\rutasComerciales\\rutasComerciales.csproj",
+        "projectPath": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo rutas comerciales\\rutasComerciales (3)\\rutasComerciales\\rutasComerciales.csproj",
         "packagesPath": "C:\\Users\\Diego\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo con git\\rutasComerciales\\obj\\",
+        "outputPath": "C:\\Users\\Diego\\OneDrive - Educacyl\\Escritorio\\codigo rutas comerciales\\rutasComerciales (3)\\rutasComerciales\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Diego\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,0 +1,51 @@
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\rutasComerciales.exe
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\rutasComerciales.deps.json
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\rutasComerciales.runtimeconfig.json
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\rutasComerciales.dll
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\rutasComerciales.pdb
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.AssemblyReference.cache
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.GeneratedMSBuildEditorConfig.editorconfig
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfoInputs.cache
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfo.cs
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CoreCompileInputs.cache
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.dll
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\refint\rutasComerciales.dll
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.pdb
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.genruntimeconfig.cache
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\ref\rutasComerciales.dll
+D:\lossssio\rutasComerciales\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\lossssio\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CopyComplete
+C:\rutasComerciales\bin\Debug\net7.0\rutasComerciales.exe
+C:\rutasComerciales\bin\Debug\net7.0\rutasComerciales.deps.json
+C:\rutasComerciales\bin\Debug\net7.0\rutasComerciales.runtimeconfig.json
+C:\rutasComerciales\bin\Debug\net7.0\rutasComerciales.dll
+C:\rutasComerciales\bin\Debug\net7.0\rutasComerciales.pdb
+C:\rutasComerciales\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.AssemblyReference.cache
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.GeneratedMSBuildEditorConfig.editorconfig
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfoInputs.cache
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfo.cs
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CoreCompileInputs.cache
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CopyComplete
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.dll
+C:\rutasComerciales\obj\Debug\net7.0\refint\rutasComerciales.dll
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.pdb
+C:\rutasComerciales\obj\Debug\net7.0\rutasComerciales.genruntimeconfig.cache
+C:\rutasComerciales\obj\Debug\net7.0\ref\rutasComerciales.dll
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\rutasComerciales.exe
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\rutasComerciales.deps.json
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\rutasComerciales.runtimeconfig.json
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\rutasComerciales.dll
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\rutasComerciales.pdb
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\bin\Debug\net7.0\Newtonsoft.Json.dll
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.AssemblyReference.cache
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfoInputs.cache
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.AssemblyInfo.cs
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CoreCompileInputs.cache
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.csproj.CopyComplete
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.dll
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\refint\rutasComerciales.dll
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.pdb
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\rutasComerciales.genruntimeconfig.cache
+C:\Users\Diego\OneDrive - Educacyl\Escritorio\codigo rutas comerciales\rutasComerciales (3)\rutasComerciales\obj\Debug\net7.0\ref\rutasComerciales.dll
