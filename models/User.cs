@@ -25,5 +25,135 @@ public string? Username { get; set; }
 
             return new User { Username = username, Password = password };
         }
+         public static void SaveUsersToFile(List<User> users)
+        {
+            string json = JsonConvert.SerializeObject(users, Formatting.Indented);
+            File.WriteAllText("users.json", json);
+        }
+
+        public static List<User> LoadUsersFromFile()
+        {
+            if (File.Exists("users.json"))
+            {
+                string json = File.ReadAllText("users.json");
+                return JsonConvert.DeserializeObject<List<User>>(json);
+            }
+
+            return new List<User>();
+        }
+         public static User? Login(List<User> users)
+        {
+            Console.Write("Usuario: ");
+            string? username = Console.ReadLine();
+            Console.Write("Contraseña: ");
+            string? password = Console.ReadLine();
+
+            User? currentUser = users.Find(u => u.Username == username && u.Password == password);
+
+            if (currentUser != null)
+            {
+                Console.WriteLine($"Inicio de sesión exitoso, ¡bienvenido {currentUser.Username}!");
+            }
+            else
+            {
+                Console.WriteLine("Inicio de sesión fallido. Verifica tus credenciales.");
+            }
+
+            return currentUser;
+        }
+
+        public void AddVisit(List<User> users)
+        {
+            if (Visits == null)
+            {
+                Visits = new List<Visit>();
+            }
+
+            if (IsBoss())
+            {
+                Console.Write("Nombre de usuario del destinatario: ");
+                string? recipientUsername = Console.ReadLine();
+
+                User? recipientUser = users.Find(u => u.Username == recipientUsername);
+
+                if (recipientUser != null)
+                {
+                    Console.Write($"Fecha de la Visita para {recipientUser.Username} (MM/DD/AAAA): ");
+                    DateTime date;
+                    while (!DateTime.TryParse(Console.ReadLine(), out date))
+                    {
+                        Console.WriteLine("Formato de fecha no válido. Inténtalo de nuevo.");
+                    }
+
+                    Console.Write("Ubicación: ");
+                    string? location = Console.ReadLine();
+
+                    AddVisit(recipientUser, date, location);
+                }
+                else
+                {
+                    Console.WriteLine("Usuario destinatario no encontrado.");
+                }
+            }
+            else
+            {
+                Console.WriteLine("No tienes permisos para agregar visitas a otros usuarios.");
+            }
+        }
+
+        public void AddVisit(User recipientUser, DateTime date, string location)
+        {
+            Visits ??= new List<Visit>();
+
+            Visit newVisit = new Visit { Date = date, Location = location };
+
+            recipientUser.Visits ??= new List<Visit>();
+            recipientUser.Visits.Add(newVisit);
+
+            Console.WriteLine("Visita agregada correctamente al usuario.");
+        }
+
+        public void ViewVisits()
+        {
+            Console.WriteLine("Visitas Pendientes:");
+
+            if (Visits == null)
+            {
+                Console.WriteLine("No hay visitas pendientes.");
+                return;
+            }
+
+            foreach (var visit in Visits)
+            {
+                if (!visit.Completed)
+                {
+                    Console.WriteLine($"{visit.Date.ToShortDateString()} - {visit.Location}");
+                }
+            }
+        }
+
+        public void MarkVisitCompleted()
+        {
+            ViewVisits();
+
+            Console.Write("Ingrese la fecha de la visita que desea marcar como realizada (MM/DD/AAAA): ");
+            DateTime date;
+            while (!DateTime.TryParse(Console.ReadLine(), out date))
+            {
+                Console.WriteLine("Formato de fecha no válido. Inténtalo de nuevo.");
+            }
+
+            var visit = Visits?.Find(v => v.Date.Date == date.Date);
+
+            if (visit != null)
+            {
+                visit.MarkCompleted();
+            }
+            else
+            {
+                Console.WriteLine("No se encontró ninguna visita para la fecha proporcionada.");
+            }
+        }
+
     
 
